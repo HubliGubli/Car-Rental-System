@@ -9,11 +9,16 @@ body {
     height: 5em;
 }
 
+.navbar {
+    display:flex;
+}
+
 .navbar ul{
     list-style-type: none;
     background-color: transparent;
     padding: 0px;
     margin: 0px;
+    overflow: hidden;
 }
 
 .navbar a{
@@ -22,6 +27,14 @@ body {
     padding: 15px;
     display: block;
     text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li{
+    float: left;
 }
 
 .car-background {
