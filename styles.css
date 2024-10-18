@@ -1,3 +1,9 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
 .logo-nav {
     width: 5em;
     height: 5em;
@@ -5,4 +11,24 @@
 
 .navbar ul{
     list-style-type: none;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.car-background {
+    background-image: url("images/car.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    padding: 0px;
 }
