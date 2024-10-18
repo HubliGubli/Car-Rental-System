@@ -3,3 +3,6 @@
     height: 5em;
 }
 
+.navbar ul{
+    list-style-type: none;
+}
